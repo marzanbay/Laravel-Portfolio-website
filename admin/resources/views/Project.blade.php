@@ -65,7 +65,7 @@
                 <input id="ProjectNameId" type="text" id="" class="form-control mb-3" placeholder="Project Name">
                 <input id="ProjectDesId" type="text" id="" class="form-control mb-3" placeholder="Project Description">
             </div>
-            <div class="col-md-6">     
+            <div class="col-md-6">
                 <input id="ProjectLinkId" type="text" id="" class="form-control mb-3" placeholder="Project Link">
                 <input id="ProjectImgId" type="text" id="" class="form-control mb-3" placeholder="Project Image">
             </div>
@@ -102,7 +102,7 @@
                 <input id="ProjectNameUpdateId" type="text" id="" class="form-control mb-3" placeholder="Project Name">
                 <input id="ProjectDesUpdateId" type="text" id="" class="form-control mb-3" placeholder="Project Description">
             </div>
-            <div class="col-md-6">    
+            <div class="col-md-6">
                 <input id="ProjectLinkUpdateId" type="text" id="" class="form-control mb-3" placeholder="Project Link">
                 <input id="ProjectImgUpdateId" type="text" id="" class="form-control mb-3" placeholder="Project Image">
             </div>
@@ -132,7 +132,7 @@
       <div class="modal-body">
         <h5 class="text-center p-3 mt-4">আপনি এটি ডিলিট করতে চান?</h5>
         <h5 id="ProjectDeleteId" class="text-center p-3 mt-4 d-none"></h5>
-    
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">নাহ</button>
@@ -144,7 +144,7 @@
 
 
 @section('script')
-    <script type="text/javascript">  
+    <script type="text/javascript">
 getProjectData();
 
 // সার্ভিসেস টেবিল
@@ -375,7 +375,7 @@ $('#ProjectUpdateConfirmBtn').click(function() {
 })
 
 
-// Service Update 
+// Service Update
 function ProjectUpdate(ProjectID, ProjectName, ProjectDes, ProjectLink, ProjectImg) {
 
 
